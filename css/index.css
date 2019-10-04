@@ -203,3 +203,51 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* -------- About Page */
+
+.about-top {
+    border-bottom: 1px black dashed;
+    margin-bottom: 2%;
+}
+
+.about-top div {
+    margin: 2%;
+}
+
+/* -------- middle section  */
+
+.about-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-middle div {
+    width: 45%;
+    margin: 3% 0;
+    border-bottom: 1px black dashed;
+}
+
+.about-middle div img {
+    width: 100%;
+}
+
+.about-middle h2 {
+    margin: 5% 0;
+}
+
+.about-middle button {
+    margin: 5% 0;
+    border: 2px solid black;
+    background: white;
+    border-radius: 6px;
+    width: 33%;
+    padding: 2%;
+}
+
+/* -------- bottom section  */
+
+.about-bottom {
+    margin: 3% 0 5%;
+}
