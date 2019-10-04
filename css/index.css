@@ -291,6 +291,7 @@ footer nav a {
     }
   }
 .about-header-image {
+    margin: 5% 0;
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;
