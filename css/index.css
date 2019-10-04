@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.lambda-logo {
+    margin-top: 5%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5%;
+}
+
+
+.header-image {
+    margin: 5% 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +127,113 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+@keyframes box1 {
+    from {background-color: black;}
+    to {background-color: teal;}
+  }
+.box-1 {
+    background: teal;
+    animation-name: box1;
+    animation-duration: 4s;
+}
+
+@keyframes box2 {
+    from {background-color: black;}
+    to {background-color: gold;}
+  }
+.box-2 {
+    background: gold;
+    animation-name: box2;
+    animation-duration: 4s;
+}
+
+@keyframes box3 {
+    from {background-color: black;}
+    to {background-color: cadetblue;}
+  }
+.box-3 {
+    background: cadetblue;
+    animation-name: box3;
+    animation-duration: 4s;
+}
+
+@keyframes box4 {
+    from {background-color: black;}
+    to {background-color: coral;}
+  }
+.box-4 {
+    background: coral;
+    animation-name: box4;
+    animation-duration: 4s;
+}
+
+@keyframes box5 {
+    from {background-color: black;}
+    to {background-color: crimson;}
+  }
+.box-5 {
+    background: crimson;
+    animation-name: box5;
+    animation-duration: 4s;
+}
+
+@keyframes box6 {
+    from {background-color: black;}
+    to {background-color: forestgreen;}
+  }
+.box-6 {
+    background: forestgreen;
+    animation-name: box6;
+    animation-duration: 4s;
+}
+
+@keyframes box7 {
+    from {background-color: black;}
+    to {background-color: darkorchid;}
+  }
+.box-7 {
+    background: darkorchid;
+    animation-name: box7;
+    animation-duration: 4s;
+}
+
+@keyframes box8 {
+    from {background-color: black;}
+    to {background-color: hotpink;}
+  }
+.box-8 {
+    background: hotpink;
+    animation-name: box8;
+    animation-duration: 4s;
+}
+
+@keyframes box9 {
+    from {background-color: black;}
+    to {background-color: indigo;}
+  }
+.box-9 {
+    background: indigo;
+    animation-name: box9;
+    animation-duration: 4s;
+}
+
+@keyframes box10 {
+    from {background-color: black;}
+    to {background-color: dodgerblue;}
+  }
+.box-10 {
+    background: dodgerblue;
+    animation-name: box10;
+    animation-duration: 4s;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +266,71 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* -------- About Page */
+
+.about-top {
+    border-bottom: 1px black dashed;
+    margin-bottom: 2%;
+}
+
+.about-top div {
+    margin: 2%;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.about-header-image {
+    margin: 5% 0;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+  
+
+/* -------- middle section  */
+
+.about-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-middle div {
+    width: 45%;
+    margin: 3% 0;
+    border-bottom: 1px black dashed;
+}
+
+.about-middle div img {
+    width: 100%;
+}
+
+.about-middle h2 {
+    margin: 5% 0;
+}
+
+.about-middle button {
+    margin: 5% 0;
+    border: 2px solid black;
+    background: white;
+    border-radius: 6px;
+    width: 33%;
+    padding: 2%;
+}
+
+/* -------- bottom section  */
+
+.about-bottom {
+    margin: 3% 0 5%;
 }
